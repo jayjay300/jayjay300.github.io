@@ -1,0 +1,61 @@
+<!doctype HTML>
+<html>
+<script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.2/aframe/build/aframe-ar.js"> </script>
+  <body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs='debugUIEnabled: true'>
+
+  	 <a-marker type="pattern" url="https://raw.githubusercontent.com/jeromeetienne/AR.js/master/data/multimarkers/multi-abcdef/patt.a"> 
+  		
+
+
+  		<!-- EPICENTER  -->
+       <a-entity  rotation= '180 0 0' scale='0.01 0.01 0.01' position='0,0,25' obj-model= "obj: url(/Assets/Words/PosterWords2/tinker.obj); mtl: url(/Assets/Words/PosterWords2/obj.mtl);">
+
+       	
+        <a-animation attribute="rotation" to="180 360 0" dur="10000" easing='linear' repeat="indefinite"></a-animation>
+
+       </a-entity>
+		<!-- BIRTHPLACE -->
+              <a-entity  rotation= '180 0 0' scale='0.02 0.02 0.02' position='0 3 0' obj-model= "obj: url(/Assets/Words/PosterWords/tinker.obj); mtl: url(/Assets/Words/PosterWords/obj.mtl);">
+              	
+              	<a-animation attribute="rotation" to="180 0 360" dur="15000" easing='linear' repeat="indefinite"></a-animation>
+              </a-entity>
+        <!-- STEM  -->
+              <a-entity  rotation= '180 0 0' scale='0.05 0.05 0.05' position='0 0 0' obj-model= "obj: url(/Assets/Words/PosterWords3/tinker.obj); mtl: url(/Assets/Words/PosterWords3/obj.mtl);">
+              	<a-animation attribute="rotation" to="180 180 360" dur="25000" easing='linear' repeat="indefinite"></a-animation>
+
+              </a-entity>
+        <!-- MAKE  -->
+              <a-entity  rotation= '180 3 0' scale='0.07 0.07 0.07' position='0 0 0' obj-model= "obj: url(/Assets/Words/PosterWords1/tinker.obj); mtl: url(/Assets/Words/PosterWords1/obj.mtl);"></a-entity>
+
+
+  	</a-marker>
+
+                	  	
+
+
+
+       <a-marker type="pattern" url="https://raw.githubusercontent.com/jeromeetienne/AR.js/master/data/multimarkers/multi-abcdef/patt.c" size="1"> 
+  		<!-- EPICENTER  -->
+       <a-entity  rotation= '180 3 0' scale='0.04 0.04 0.04' position='0,0,0' obj-model= "obj: url(/Assets/Words/PosterWords4/tinker.obj); mtl: url(/Assets/Words/PosterWords4/obj.mtl);">
+
+       </a-entity>
+		<!-- BIRTHPLACE -->
+              <a-entity  rotation= '180 3 0' scale='0.3 0.3 0.3' position='0 0 0' obj-model= "obj: url(/Assets/Words/PosterWords5/tinker.obj); mtl: url(/Assets/Words/PosterWords5/obj.mtl);">
+              	<a-animation attribute="rotation" to="180 0 360" dur="15000" easing='linear' repeat="indefinite"></a-animation>
+              </a-entity>
+        <!-- STEM  -->
+              <a-entity  rotation= '180 3 0' scale='0.3 0.3 0.3' position='0 0 0' obj-model= "obj: url(/Assets/Words/PosterWords6/tinker.obj); mtl: url(/Assets/Words/PosterWords6/obj.mtl);">
+              	<a-animation attribute="rotation" to="180 180 360" dur="25000" easing='linear' repeat="indefinite"></a-animation>
+              </a-entity>
+        <!-- MAKE  -->
+              <a-entity  rotation= '180 3 0' scale='0.4 0.4 0.4' position='0 0 0' obj-model= "obj: url(/Assets/Words/PosterWords7/tinker.obj); mtl: url(/Assets/Words/PosterWords7/obj.mtl);">
+              	<a-animation attribute="rotation" to="180 180 360" dur="25000" easing='linear' repeat="indefinite">
+              </a-entity>
+
+  	</a-marker>
+
+    </a-scene>
+  </body>
+</html>
