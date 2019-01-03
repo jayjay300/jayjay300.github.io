@@ -1,3 +1,8 @@
+This is a Augmented Reality poster build on the AR.js framework (documentation below). The poster can be viewed at jayjay300.github.io
+
+
+
+
 # AR.js - Augmented Reality for the Web
 
 [![Augmented Website](https://user-images.githubusercontent.com/252962/27472386-0d11e59a-57f3-11e7-9fa5-34332c5484f7.png)](https://github.com/jeromeetienne/AR.js)
